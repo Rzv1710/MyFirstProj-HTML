@@ -1,0 +1,302 @@
+body
+{
+   padding: 0;
+   margin: 0;
+   font-size: 62.5%;
+   font-family: "Tw Cen MT", Helvetica, Arial, sans-serif;
+}
+p{
+    text-align: center;
+}
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 450px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  .button2 {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 409px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+#header-mainpage
+{
+  text-align:center;
+  background-color: #070be2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+}
+
+#p1
+{
+  text-align:center;
+  background-color: #15153680;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+}
+
+#text1
+{
+    text-align:center;
+    font-size: 6em;
+    margin:0;
+    padding-top: 20px;
+    animation: color-change 1s infinite;
+}
+
+
+nav {
+  text-align: right;
+  overflow: hidden;
+  background-color: #ddd;
+  opacity: 0.5;
+  font-weight: bold;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+
+}
+
+nav a {
+  
+  display:inline-block;
+  color: #000000;
+  
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  
+  background-color:#10bbe6;
+  color: black;
+}
+
+
+
+main
+{
+   width: 80%;
+   max-width: 1000px;
+   margin: auto auto;
+   padding: 2em;
+   color: #fff;
+   font-family: "Tw Cen MT", Helvetica, Arial, sans-serif;
+   font-size: 200%;
+}
+.imgss{
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 500px;
+padding: 18px 16px;
+
+
+}
+.imgr{
+  width: 50%; 
+   height: 50%;
+   
+   font-size: 50px;
+   margin-bottom: 10px;
+   border-radius: 50%;
+   line-height: 100px;
+   
+   display: flex;
+}
+@media screen and (max-width: 600px)
+{
+  body
+  {
+   padding: 0;
+   margin: 0;
+   font-size: 62.5%;
+   font-family: "Tw Cen MT", Helvetica, Arial, sans-serif;
+  }
+  
+  #header-mainpage
+  {
+  text-align:center;
+  background-color:gray;
+  }
+ 
+  
+
+#text1
+{
+    text-align:center;
+    font-size: 6em;
+    margin:0;
+    padding-top: 20px;
+    animation: color-change 1s infinite;
+}
+
+
+
+nav {
+  text-align: center;
+  overflow: hidden;
+  background-color: #fdfdf6;
+  width: 101%;
+  
+  
+}
+
+nav a {
+  text-align: center;
+  display:inline-block;
+  color: #000000;
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 20px;
+  
+  width: 100%;
+}
+
+nav a:hover {
+  text-align: center;
+  background-color: #ddd;
+  color: black;
+}
+
+main
+{
+   width: 82%;
+   max-width: 1000px;
+   
+   padding: 2em;
+   color: #fff;
+   font-family: "Tw Cen MT", Helvetica, Arial, sans-serif;
+   font-size: 200%;
+}
+
+.imgss{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
+.imgr{
+    width: 92%;
+    
+     height: auto;
+     text-align: center;
+     font-size: 50px;
+     
+     border-radius: 50%;
+     line-height: 100px;
+     display: table;
+     border-radius: 50px;
+     
+     
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px)
+{
+  body
+  {
+   padding: 0;
+   margin: 0;
+   font-size: 62.5%;
+   font-family: "Tw Cen MT", Helvetica, Arial, sans-serif;
+  }
+  
+  #header-mainpage
+  {
+  text-align:center;
+  background-color:gray;
+  }
+ 
+  #p1
+  {
+  text-align:center;
+  background-color: #0707e2;
+}
+
+  #text1
+{
+    text-align:center;
+    font-size: 6em;
+    margin:0;
+    padding-top: 20px;
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: grey; }
+  50% { color: blue; }
+  100% { color: grey; }
+}
+
+nav {
+  text-align: center;
+  overflow: hidden;
+  background-color: #fdfdf6;
+  width: 98%;
+  
+  
+}
+
+nav a {
+  text-align: center;
+  display:inline-block;
+  color: #000000;
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 20px;
+  
+  width: 100%;
+}
+
+nav a:hover {
+  text-align: center;
+  background-color: #ddd;
+  color: black;
+}
+
+main
+{
+   width: 80%;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 2em;
+   color: #fff;
+   font-family: "Tw Cen MT", Helvetica, Arial, sans-serif;
+   font-size: 200%;
+}
+
+.imgss{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50px;
+  width:45%
+  }
+  
+.imgr{
+    width: 100%;
+     height: auto;
+     text-align: center;
+     font-size: 50px;
+     margin-bottom: 10px;
+     border-radius: 50%;
+     line-height: 100px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     display: table;
+     
+}
+  }

@@ -1,0 +1,156 @@
+.img1 {
+    position: absolute;
+width: 72px;
+height: 68px;
+left: 167.5px;
+top: 0px;
+
+background: url(.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.img2 {
+    position: absolute;
+width: 333px;
+height: 80px;
+left: 40px;
+top: 68px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.p1{
+    /* Date de contact Deac Razvan-Ionut Tel.: 07XX/XXX/XXX Adresa: Strada Universitatii nr.1, Oradea */
+
+
+position: absolute;
+width: 520px;
+height: 448px;
+left: 82px;
+top: 153px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+position: absolute;
+width: 529px;
+height: 260px;
+left: 82px;
+top: 153px;
+
+background: rgba(196, 230, 240, 0.226);
+border-radius: 20px;
+}
+
+.harta{
+    position: absolute;
+width: 526px;
+height: 317px;
+left: 81px;
+top: 674px;
+
+background: url(image.png);
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.fb{
+    position: absolute;
+width: 91px;
+height: 99px;
+left: 82px;
+top: 531px;
+
+background: url(fb_icon_325x325.png);
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.insta{
+    
+position: absolute;
+width: 89px;
+height: 99px;
+left: 299px;
+top: 531px;
+
+background: url(.png);
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.wapp{
+    position: absolute;
+width: 91px;
+height: 95px;
+left: 511px;
+top: 531px;
+
+background: url(image.png);
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.orar{
+    position: absolute;
+width: 373px;
+height: 372px;
+left: 1330px;
+top: 306px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+
+color: #000000;
+
+position: absolute;
+width: 529px;
+height: 400px;
+left: 1330px;
+top: 319px;
+
+background: rgba(89, 188, 219, 0.25);
+border-radius: 20px;
+}
+
+.mail2{
+    position: absolute;
+width: 170px;
+height: 150px;
+left: 870px;
+top: 553.94px;
+
+
+transform: rotate(-27.23deg);
+}
+.mail3 {
+position: absolute;
+width: 267px;
+height: 125px;
+left: 820px;
+top: 700px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+text-shadow: 2px 2px #ffffff;
+color: #000000;}
